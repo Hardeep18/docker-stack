@@ -5,4 +5,5 @@ services:
      image: jenkins:latest
      ports:
      - "8089:8080"
-     restart: always
+     volumes:
+      - jenkins:/var/jenkins_home
