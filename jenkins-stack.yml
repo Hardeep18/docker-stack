@@ -6,7 +6,7 @@ services:
      ports:
      - "8089:8080"
      volumes:
-      - jenkins:/var/jenkins_home
+        - jenkins1:/var/jenkins_home
      deploy:
       replicas: 1
       placement:
